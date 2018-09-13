@@ -5,3 +5,7 @@ I came across a StackExchange article that spoke about email obfuscation, which 
 
 # CFML Engine Compatibility
 Adobe ColdFusion 11+
+
+# Links and Attribution
+* [Original Javascript Email Obfuscator](http://www.jottings.com/obfuscator/)
+* [PHP Version](http://www.celticproductions.net/articles/10/email/php-email-obfuscator.html)
