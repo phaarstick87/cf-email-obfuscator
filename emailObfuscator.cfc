@@ -32,7 +32,6 @@
 		<cfset var mixedkey = "">
 		<cfset var before = "">
 		<cfset var after = "">
-		<cfset var inprogresskey = "">
 		<cfset var cipher = "">
 		<cfset var shift = len(address)>
 		
@@ -49,7 +48,7 @@
 			<cfset before = mid(inprogresskey,1,ranpos-1)>
 			<cfset after = mid(inprogresskey,ranpos+1,unshuffled-ranpos+1)>
 			<cfset inprogresskey = before & after>
-			<cfset unshuffled-->
+			<cfset unshuffled-- >
 		</cfloop>
 		
 		<cfset cipher = mixedkey>
